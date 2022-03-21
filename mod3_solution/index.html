@@ -9,20 +9,51 @@
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-	<header>
+	<header> 
 		<nav id="header-nav" class="navbar navbar-default">
-			<div class="container">
+			<div class="container-fluid">
 				<div class="navbar-header">
 					 <div class="navbar-brand">
 					 	<h1>Food, LLC</h1>
-					 </div>
+					 </div> 
 
-
+					<button type="button" class="visible-xs
+					navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
 				</div>
+				<div id="collapsable-nav" class="collapse navbar-collapse">
+					<ul id="nav-list" class="nav navbar-nav">
+						<li class="visible-xs">
+							<a href="#">Chicken</a>
+						</li>
+						<li class="visible-xs">
+							<a href="#">Beef</a>
+						</li>
+						<li class="visible-xs">
+							<a href="#">Sushi</a>
+						</li>
+					</ul>
+				</div>					
 			</div>
-			
 		</nav>
 	</header>
 
+	<div id="main-content" class="container">
+		<h2 id="menu-title" class="text-center">Our Menu</h2>
+		
+		<div id="menu-content" class="col-xs-12">
+			<h3 class="text-center">Chicken</h3>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum pretium tellus, eget mattis magna imperdiet nec. Aenean a malesuada mi. Proin purus elit, imperdiet et venenatis ac, pretium vitae lectus. In tempus semper luctus. Quisque dictum pulvinar mi id finibus. Sed quis ex et metus ultrices consequat. Nunc ac lorem felis. Donec finibus odio augue, a imperdiet velit sodales rutrum. Suspendisse cursus et tortor in vehicula.Morbi commodo, nibh eget aliquam sagittis, odio nulla aliquet augue, sit amet finibus neque urna eu justo. Vivamus vel justo pharetra magna fermentum sagittis. Pellentesque laoreet, dolor euismod laoreet mattis, orci justo convallis nibh, in porta quam ligula non felis. Proin eu magna a ex finibus hendrerit. Aliquam aliquet mollis augue at porttitor. Nulla pretium turpis arcu, ac pharetra nunc volutpat sed. Sed vehicula justo id vestibulum laoreet. Ut sed mi molestie, tincidunt elit id, vehicula sem. Donec quis ornare felis. Integer eget est ornare, varius elit sed, semper nisl. Sed ut scelerisque neque. Fusce suscipit, nisl vehicula sollicitudin eleifend, risus augue facilisis erat, id imperdiet eros metus quis metus. Vivamus viverra dolor lorem, a molestie dui commodo eget. Ut porttitor convallis egestas. Phasellus ut metus risus. Aenean feugiat arcu sit amet lobortis ultricies. Duis ex justo, iaculis sit amet mollis sit amet, sodales a justo. Cras at interdum sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur lorem enim, consectetur vel ipsum vitae, sagittis malesuada justo.
+			Proin laoreet est sit amet quam finibus fermentum. Aliquam erat volutpat. Etiam et cursus tellus, a porttitor elit. Phasellus blandit lacus at tempor sagittis. Etiam rutrum, urna eu sagittis fermentum, quam purus pharetra est, non tempus quam tellus eget lectus. Donec eleifend erat sed erat sodales semper. Fusce venenatis ut diam vitae convallis. Vestibulum feugiat iaculis accumsan. Sed id nibh consectetur, rhoncus velit non, posuere tellus. Maecenas malesuada, lacus et consequat tincidunt, nisl eros accumsan nisl, sed pellentesque eros turpis nec velit. Donec nec imperdiet elit. Suspendisse non semper lorem. Maecenas eget lorem non orci vehicula malesuada at sit amet ante. Mauris at justo imperdiet velit faucibus tempus.Integer aliquet, eros eu molestie maximus, leo nibh mattis eros, vel imperdiet justo erat nec ex. Nulla vel efficitur leo, sit amet dapibus augue. Donec dolor nunc, congue in erat id, ultricies facilisis quam. Pellentesque efficitur maximus turpis. Suspendisse varius libero at placerat hendrerit. Sed vehicula pharetra nisl a lacinia. Suspendisse efficitur risus vitae euismod accumsan. Aliquam erat volutpat. Curabitur at lobortis sem. In et rutrum velit. Curabitur eu mattis nulla, at hendrerit nunc. Quisque sit amet ultricies arcu. Nullam dignissim eros massa, id consectetur nisi gravida at. Praesent mi nunc, convallis vitae quam nec, feugiat venenatis nisi. Nunc mattis nec eros at tincidunt.Vestibulum cursus finibus lorem, quis malesuada metus tincidunt accumsan. Proin lobortis pharetra augue sit amet dapibus. Donec ullamcorper eget nunc id molestie. Praesent ut libero urna. Mauris id neque facilisis lacus maximus gravida. Curabitur ex est, fringilla id vestibulum eget, scelerisque et dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at laoreet purus. Vivamus leo purus, faucibus vitae velit non, egestas lacinia purus. Etiam at erat massa. Mauris aliquam vulputate est, ut vulputate nisi auctor at. Fusce ultrices hendrerit dictum. Morbi feugiat ac diam at posuere. Duis ac pretium sapien. Morbi tristique dui nulla, elementum feugiat orci blandit at.Cras fringilla dictum nunc, et ultricies urna mattis et. Duis at ultricies libero. Sed sed finibus orci. Integer lobortis ac sem sodales feugiat. Sed porttitor arcu at tempor fermentum. Phasellus sed lacus tincidunt, bibendum neque at, vehicula velit. Mauris fermentum aliquet dapibus.
+		</div>
+	</div>
+
+	
+	<script src="js/jquery-3.6.0.min.js"></script>
+  	<script src="js/bootstrap.min.js"></script>
+  	<script src="js/script.js"></script>
 </body>
 </html>
